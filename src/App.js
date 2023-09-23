@@ -1,5 +1,3 @@
-import logo from './logo.svg';
-// import './App.css';
 import Header from './Header';
 import Nav from './Nav';
 import Home from './Home';
@@ -8,8 +6,7 @@ import PostPage from './PostPage';
 import About from './About';
 import Missing from './Missing';
 import Footer from './Footer';
-import { Routes,Route,Link,useNavigate } from 'react-router-dom';
-import Post from './Post';
+import { Routes,Route,useNavigate } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import {format} from "date-fns"
 import './index.css';
@@ -19,7 +16,7 @@ function App() {
 
   const [Search,setSearch] = useState('')
   const [searchresult,setsearchresult] = useState('')
-  const [addPost,setaddPost] = useState('')
+  // const [addPost,setaddPost] = useState('')
   const [postTitle,setpostTitle] = useState ('')
   const [postBody,setpostBody] =useState('')
   const [post,setpost] = useState([])

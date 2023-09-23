@@ -1,0 +1,22 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "My First Post",
+      "datetime": "July 01, 2023 01:01:01 AM",
+      "body": "if you want to be successful work hard"
+    },
+    {
+      "id": 2,
+      "title": "My second Post",
+      "datetime": "July 01, 2023 01:01:01 AM",
+      "body": "Technology is the future"
+    },
+    {
+      "id": 4,
+      "title": "My fourth Post",
+      "datetime": "July 01, 2023 01:01:01 AM",
+      "body": "nothing can stop you"
+    }
+  ]
+}
